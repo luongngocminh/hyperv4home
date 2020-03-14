@@ -14,7 +14,7 @@ for /F "tokens=*" %%A in (hyper.txt) do (
 echo N | dism /online /enable-feature /featurename:Microsoft-Hyper-V -All /LimitAccess /ALL
 :: Containers installation
 dir /b %SystemRoot%\servicing\Packages\*containers*.mum>containers.txt
-for /F "tokens=*" %%A in (hyper.txt) do (
+for /F "tokens=*" %%A in (containers.txt) do (
     %prefix%%%A^"
 )
 echo N | dism /online /enable-feature /featurename:Containers -All /LimitAccess /ALL
