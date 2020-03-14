@@ -1,5 +1,5 @@
 # A Batch Script for installing Hyper-V and Containers in any Windows 10 Edition
-This is a script that I had written to install and enable these 2 feature on any Windows Edition so you won't have to install a bunch of stuffs just to install Docker.
+This is a script that I had written to install and enable these 2 features on any Windows Edition so you won't have to install a bunch of stuffs just to install Docker.
 
 # Usage
 1. Download the file batch file in this repository or create your own with this content:
